@@ -119,10 +119,14 @@ header{
     width:1em;
     height:1em;
     position:absolute;
-    left: 51.3%;
+    left: 51.2%;
     bottom:9%;
     z-index: 1;
-    color:gray;
+    filter: invert(30%) sepia(33%) saturate(34o%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+
+.icon-down img:hover{
+    filter: invert(30%) sepia(33%) saturate(12%) hue-rotate(87deg) brightness(119%) contrast(119%);
 }
 
 /* 
