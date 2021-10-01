@@ -96,18 +96,33 @@ header{
 }
 
 /* simple art thing */
+/* .icon-down, i{
+    position:relative;
+    margin: 0 auto;
+} */
+
 .icon-down::after{
     content:"";
     width:50px;
     height:50px;
     position:absolute;
     left: 50%;
-    top:86vh;
-    background:red;
+    top:87vh;
+    background:white;
     border-radius: 50%;
     /* display: flex;
     justify-content:center;
     align-items: center; */
+}
+
+.icon-down img{
+    width:1em;
+    height:1em;
+    position:absolute;
+    left: 51.3%;
+    bottom:9%;
+    z-index: 1;
+    color:gray;
 }
 
 /* 
