@@ -203,10 +203,10 @@ Mid section
     
 }
 
-/* .mid-section-img{
+.mid-section-img{
     position: relative;
-    width: 100vw;
-    height:100vh;
+    /* width: 100vw;
+    height:100vh; */
     display:flex;
     justify-content:center;
     align-items: center;
@@ -222,25 +222,26 @@ Mid section
     background-image: url(/images/rice_fish_plate_big.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     min-height:79vh;
     filter:brightness(50%);
-} */
+}
 
-.mid-section-img{
+/* .mid-section-img{
     background-image: url(/images/rice_fish_plate_big.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height:79vh;
     filter:brightness(50%);
-}
+} */
 
-.mid-section-title{
+/* .mid-section-title{
     text-align: center;
     color:#fff;
     position:relative;
-}
+    top:3em;
+} */
 
 
 
