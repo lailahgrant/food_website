@@ -223,7 +223,7 @@ Mid section
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height:79vh;
+    min-height:70vh;
     filter:brightness(50%);
 }
 
@@ -240,7 +240,7 @@ Mid section
     text-align: center;
     color:#fff;
     position:relative;
-    top:3em;
+    top:5em;
 }
 
 .mid-section-head{
@@ -253,6 +253,32 @@ Mid section
     text-transform: capitalize;
     font-style: italic;
 }
+
+.mid-section-time{
+    position: absolute;
+    top:15em;
+    left:10em;
+    right:10em;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.mid-section-pa{
+    color: #d3581c;
+    font-size:1.5em;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
