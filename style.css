@@ -193,7 +193,19 @@ img{
     height: auto;
 }
 
+/* 
+====
+Mid section
+====
+*/
+.mid-section{
+    max-height: 50vh;
+}
 
+.mid-section-img{
+    background-image: url(/images/rice_fish_plate_big.jpg);
+    background-size: cover;
+}
 
 
 
