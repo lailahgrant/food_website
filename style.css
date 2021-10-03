@@ -138,10 +138,27 @@ header{
 main content
 ====
 */
+main{
+    margin: 3em;
+    display:flex;
+}
 
+.left-text{
+    margin-right: 3em;
+    margin-left: 3em;
+}
 
+.title-heading h1,h3{
+    text-align: center;
+}
 
+.title-heading h1{
+    color: #d3581c;
+}
 
+.title-heading h3{
+    text-transform: uppercase;
+}
 
 
 
