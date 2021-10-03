@@ -236,14 +236,23 @@ Mid section
     filter:brightness(50%);
 } */
 
-/* .mid-section-title{
+.mid-section-title{
     text-align: center;
     color:#fff;
     position:relative;
     top:3em;
-} */
+}
 
+.mid-section-head{
+    text-transform: uppercase;
+    margin-bottom: .5em;
+    color: #d3581c;
+}
 
+.mid-section-p{
+    text-transform: capitalize;
+    font-style: italic;
+}
 
 
 
