@@ -125,7 +125,7 @@ header{
     height:1em;
     position:absolute;
     left: 51.2%;
-    bottom:9%;
+    bottom:7%;
     z-index: 1;
     filter: invert(10%) sepia(33%) saturate(100%) hue-rotate(87deg) brightness(119%) contrast(119%);
 }
@@ -200,7 +200,32 @@ Mid section
 */
 .mid-section{
     max-height:70vh;
+    
 }
+
+/* .mid-section-img{
+    position: relative;
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.mid-section-img::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-image: url(/images/rice_fish_plate_big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height:79vh;
+    filter:brightness(50%);
+} */
 
 .mid-section-img{
     background-image: url(/images/rice_fish_plate_big.jpg);
@@ -210,6 +235,13 @@ Mid section
     min-height:79vh;
     filter:brightness(50%);
 }
+
+.mid-section-title{
+    text-align: center;
+    color:#fff;
+    position:relative;
+}
+
 
 
 
