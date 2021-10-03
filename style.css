@@ -199,12 +199,16 @@ Mid section
 ====
 */
 .mid-section{
-    max-height: 50vh;
+    max-height:70vh;
 }
 
 .mid-section-img{
     background-image: url(/images/rice_fish_plate_big.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:79vh;
+    filter:brightness(50%);
 }
 
 
