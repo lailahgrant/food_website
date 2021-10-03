@@ -141,6 +141,8 @@ main content
 main{
     margin: 3em;
     display:flex;
+    /* max-height: 10vh; */
+    /* height: 30vh; */
 }
 
 .left-text{
@@ -158,10 +160,26 @@ main{
 
 .title-heading h3{
     text-transform: uppercase;
+    margin-bottom: 1em;
 }
 
+.infor{
+    line-height: 1.7em;
+}
 
+.first-p{
+    margin-bottom: 1em;
+}
 
+.left-link{
+    margin-top: 1em;
+}
+
+.left-link a.menu-link{
+    color: #d3581c;
+    text-transform: uppercase;
+    font-style: italic;
+}
 
 
 
