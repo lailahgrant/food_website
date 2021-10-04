@@ -125,7 +125,7 @@ header{
     height:1em;
     position:absolute;
     left: 51.2%;
-    bottom:7%;
+    bottom:8%;
     z-index: 1;
     filter: invert(10%) sepia(33%) saturate(100%) hue-rotate(87deg) brightness(119%) contrast(119%);
 }
@@ -246,7 +246,7 @@ Mid section
 .mid-section-head{
     text-transform: uppercase;
     margin-bottom: .5em;
-    color: #d3581c;
+    color: #fff;
 }
 
 .mid-section-p{
@@ -269,6 +269,22 @@ Mid section
     font-size:1.5em;
     font-style: italic;
 }
+
+.mid-section-head-time{
+    color:#fff;
+    font-weight: 500;
+}
+
+/* 
+=====
+Second Main section
+=====
+*/
+.second-main{
+    margin-top: 70vh;
+    margin-bottom: 3em;
+}
+
 
 
 
