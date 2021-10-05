@@ -300,7 +300,26 @@ MAPS
     height:100%;
 } */
 
+/* 
+=====
+Third Section with image
+=====
+*/
+.third-main-img{
+    position: relative;
+    display:flex;
 
+}
+
+.third-main-img::before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background-image: url(/images/plates_of_food_big.jpg);
+}
 
 
 
