@@ -300,6 +300,10 @@ MAPS
     height:100%;
 } */
 
+.maps{
+    margin-top: 10em;
+}
+
 /* 
 =====
 Third Section with image
@@ -308,7 +312,8 @@ Third Section with image
 .third-main-img{
     position: relative;
     display:flex;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .third-main-img::before{
@@ -316,9 +321,16 @@ Third Section with image
     position:absolute;
     top: 0;
     left: 0;
+    right:0;
     width:100%;
     height:100%;
     background-image: url(/images/plates_of_food_big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 25vh;
+    filter: brightness(50%);
+    max-width: 100%;
 }
 
 
