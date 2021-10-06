@@ -301,7 +301,7 @@ MAPS
 } */
 
 .maps{
-    margin-top: 10em;
+    /* margin-top: 10em; */
 }
 
 /* 
@@ -357,6 +357,9 @@ Footer
 footer{
     display:flex;
     justify-content:space-between;
+    padding: 1em;
+    background-color: #d3591cfd;
+    color:white;
 }
 
 
