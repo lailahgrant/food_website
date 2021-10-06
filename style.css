@@ -309,14 +309,14 @@ MAPS
 Third Section with image
 =====
 */
-.third-main-img{
+.section-img{
     position: relative;
     display:flex;
     justify-content: center;
     align-items: center;
 }
 
-.third-main-img::before{
+.section-img::before{
     content: '';
     position:absolute;
     top: 0;
@@ -332,6 +332,23 @@ Third Section with image
     filter: brightness(50%);
     max-width: 100%;
 }
+
+.text-info{
+    z-index: 10000;
+    margin-top: 3em;
+    color:#fff;
+    font-weight: 400;
+}
+
+.third-main-h1{
+    text-transform: uppercase;
+}
+
+.third-main-par{
+    text-align: center;
+}
+
+
 
 
 
