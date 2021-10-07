@@ -36,6 +36,17 @@ h2,h3,nav{
     font-family:"Viga";
 }
 
+/* logo */
+.logo{
+    position:relative;
+    top:-0.7rem;
+    font-size: 2rem;
+}
+
+.logo span i {
+    padding-right:.7rem;
+}
+
 
 .bg-img {
     background-image:url('images/plates_of_food_big.jpg');
