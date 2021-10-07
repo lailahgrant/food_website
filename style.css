@@ -7,8 +7,6 @@
     list-style:none;
     text-decoration:none;
     font-weight: 500;
-    /* font-size:2em; */
-
 }
 
 html,body{
@@ -18,6 +16,7 @@ html,body{
 
 html{
     scroll-behavior: smooth;
+    font-size:1rem;
 }
 
 body{
@@ -98,11 +97,11 @@ header{
     background-color: #7e3c067a;
     padding: 2em;
     color:#fff;
-    border-radius: 1em;
+    border-radius: 1rem;
 }
 
 .section-heading{
-    padding-bottom:2em;
+    padding-bottom:2rem;
 }
 
 /* simple art thing */
@@ -126,8 +125,8 @@ header{
 }
 
 .icon-down img{
-    width:1em;
-    height:1em;
+    width:1rem;
+    height:1rem;
     position:absolute;
     left: 51.2%;
     bottom:8%;
@@ -145,15 +144,15 @@ main content
 ====
 */
 main{
-    margin: 3em;
+    margin: 3rem;
     display:flex;
     /* max-height: 10vh; */
     /* height: 30vh; */
 }
 
 .left-text{
-    margin-right: 3em;
-    margin-left: 3em;
+    margin-right: 3rem;
+    margin-left: 3rem;
     width: 100%;
 }
 
@@ -167,19 +166,19 @@ main{
 
 .title-heading h3{
     text-transform: uppercase;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .infor{
-    line-height: 1.7em;
+    line-height: 1.7rem;
 }
 
 .first-p{
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .left-link{
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 .left-link a.menu-link{
@@ -245,12 +244,12 @@ Mid section
     text-align: center;
     color:#fff;
     position:relative;
-    top:5em;
+    top:5rem;
 }
 
 .mid-section-head{
     text-transform: uppercase;
-    margin-bottom: .5em;
+    margin-bottom: .5rem;
     color: #fff;
 }
 
@@ -261,9 +260,9 @@ Mid section
 
 .mid-section-time{
     position: absolute;
-    top:15em;
-    left:10em;
-    right:10em;
+    top:15rem;
+    left:10rem;
+    right:10rem;
     display:flex;
     justify-content:space-between;
     align-items: center;
@@ -271,7 +270,7 @@ Mid section
 
 .mid-section-pa{
     color: #d3581c;
-    font-size:1.5em;
+    font-size:1.5rem;
     font-style: italic;
 }
 
@@ -287,7 +286,7 @@ Second Main section
 */
 .second-main{
     margin-top: 70vh;
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
 }
 
 /* 
@@ -335,7 +334,7 @@ Third Section with image
 
 .text-info{
     z-index: 10000;
-    margin-top: 3em;
+    margin-top: 3rem;
     color:#fff;
     font-weight: 400;
 }
@@ -357,7 +356,7 @@ Footer
 footer{
     display:flex;
     justify-content:space-between;
-    padding: 1em;
+    padding: 1rem;
     background-color: #d3591cfd;
     color:white;
 }
