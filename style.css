@@ -379,6 +379,10 @@ footer{
     color: #Fdfff5;
 }
 
+.footer1{
+    line-height: 2rem;
+}
+
 .social-icons span{ 
     border: 1px solid #Fdfcfa;
     line-height: 3rem;
@@ -393,7 +397,38 @@ footer{
     background-color: #1a1110 ;
 }
 
+.designed-link{
+    font-weight: 700;
+}
 
+.footer2, .footer3{
+    margin-top:-1.7rem;
+}
+
+.footer-h3{
+    margin-left: 0;
+    display: block !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+}
+
+.info{
+    margin-bottom: 1rem;
+}
+
+.p-info{
+    line-height: 1.5rem;
+}
+
+/* .infor-sub{
+
+} */
+
+.sub-input{
+    background-color: transparent ;
+}
 
 
 
