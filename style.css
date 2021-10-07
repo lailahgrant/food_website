@@ -426,11 +426,29 @@ footer{
 
 } */
 
-.sub-input{
-    background-color: transparent ;
+.sub-link {
+    border: .001rem solid #Fdfcfa;
 }
 
+.sub-input{
+    background-color: transparent ;
+    color: #Fdfcfa;
+    outline:none;
+    border:none;
+    padding:.7rem;
+    box-shadow: .2em .2em 1em #Fdfcfa; 
+    /* width: 80%; */
+}
 
+::placeholder{
+    color: #Fdfcfa;
+}
+
+.sub-input-send span{
+    margin-left: -1em;
+    background-color: #671e02;
+    padding:.51rem 1rem;
+}
 
 
 
