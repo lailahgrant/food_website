@@ -373,7 +373,7 @@ Footer
 */
 footer{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     padding: 1.5rem;
     background-color: #d3591cfd;
     color: #Fdfff5;
